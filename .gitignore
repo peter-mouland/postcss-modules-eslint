@@ -1,0 +1,86 @@
+junit.xml
+scopes/**/dist/**
+scopes/**/icons/icon/**
+scopes/**/inject/**
+.storybook/out
+build/reports
+build/junit
+*.iml
+cypress/results
+cypress/screenshots
+cypress/videos
+package-lock.json
+packages/**/test-report.xml
+*.npmrc
+.npmsyncrc
+*.map
+*.diff.png
+.history
+perf.json
+
+# csilk Gitignore default #
+###########################
+
+.env
+
+# Editors #
+###########
+.vscode
+.idea
+*.iml
+
+# Compiled source #
+###################
+
+dist
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Packages #
+############
+
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+node_modules
+
+# Logs and databases #
+######################
+
+*.log
+*.sql
+*.sqlite
+npm-debug.log*
+coverage
+junit.xml
+
+# Caches #
+##########
+
+.eslintcache
+
+# OS generated files #
+######################
+
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+debug.log
+
+changed-scopes-pre-versioning.json
+changed-scopes-post-versioning.json
+changed-specs-cypress-args.txt
+changed-scope-paths.txt

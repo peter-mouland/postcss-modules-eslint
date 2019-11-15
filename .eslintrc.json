@@ -1,0 +1,6 @@
+{
+  "extends": [
+    "plugin:postcss-modules/recommended"
+  ],
+  "parser": "babel-eslint"
+}

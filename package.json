@@ -1,0 +1,24 @@
+{
+  "name": "postcss-modules-eslint",
+  "version": "1.0.0",
+  "description": "test case for git@github.com:peter-mouland/postcss-modules-eslint.git",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peter-mouland/postcss-modules-eslint.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/peter-mouland/postcss-modules-eslint/issues"
+  },
+  "homepage": "https://github.com/peter-mouland/postcss-modules-eslint#readme",
+  "dependencies": {
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.6.0",
+    "eslint-plugin-postcss-modules": "^1.1.1"
+  }
+}
